@@ -1,97 +1,28 @@
 body {
-    background-color: rgba(211, 211, 211, 0.767);
-    font-family: g;
+    background-color: rgb(224, 82, 82);
+}
+.container {
+    background-color: rgb(224, 82, 82);
+    color: white;
+}
+.navbar {
+    background-color: rgb(224, 82, 82);
+    color: white;
 }
 
-#pageheader {
-    background-color: rgb(71, 70, 70);
-    padding-top: 30px;
-    padding-bottom: 30px;
-    color: rgb(88, 192, 233);
-    text-decoration-line: underline;
+.navlink {
+    color: white;
 }
-*{
-    box-sizing: border-box;
+.nav-item {
+    color: white;
 }
 
-#headercolumn1 {
-    width: 30%;
-    float: left;
-    color: rgb(71, 70, 70);
-    font-size: 25px;
-    background-color: rgb(88, 192, 233);
+#projects {
+text-align: center;
 }
 
-#headercolumn {
-    width: 17.5%;
-    float: left;
+.card {
+    background-color: rgb(224, 82, 82);
     text-align: center;
-    text-decoration-line: underline;
-    color: rgb(88, 192, 233);
 }
-
-
-#row1column1 {
-    width: 30%;
-    float: left;
-    color: rgba(0, 52, 150, 0.877);
-    font-size: 25px;
-}
-
-#row1column2 {
-    text-align: right;
-    width: 70%;
-    color: rgba(0, 52, 150, 0.877);
-}
-
-
-#row2column1 {
-    width: 30%;
-    float: left;
-    color: rgba(0, 52, 150, 0.877);
-    font-size: 25px;
-}
-
-.row3 {
-
-    text-decoration-line: underline;
-}
-
-#row2column2 {
-    float:right;
-    background-color: grey;
-    border: solid 10px rgb(88, 192, 233);
-    width: 70%;
-    color: rgba(0, 52, 150, 0.877);
-    text-decoration-line: underline;
-
-}
-
-#row3column1 {
-    width: 30%;
-    float: left;
-    color: rgba(0, 52, 150, 0.877);
-    font-size: 25px;
-}
-
-#row3column2 {
-    width: 23.3%;
-    float: left;
-    text-align: center;
-    padding-right: 5px;
-    color: rgba(0, 52, 150, 0.877);
-    font-size: 25px;
-    text-decoration-line: underline;
-
-}
-
-#row4column1 {
-    width: 100%;
-    text-align: center;
-    color: rgba(0, 52, 150, 0.877);
-    font-size: 25px;
-    text-decoration-line: underline;
-}
-
-
-
+;

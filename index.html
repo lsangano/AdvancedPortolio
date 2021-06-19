@@ -6,73 +6,114 @@
         <title>Laeticia Ndutiye | Software Engineer/Web Developer</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
         <link rel="stylesheet" href="assets/css/style.css">
     </head>
     <body>
-        <div id="pageheader">
-                <div id ="headercolumn1">
-                    <h2>Lernantino |</h2>
-                </div>
-                <div id ="headercolumn">
-                    <h2>About Me</h2>
-                </div>
-                <div id ="headercolumn">
-                    <h2>Contact Me</h2>
-                </div>
-                <div id ="headercolumn">
-                    <h2>Work</h2>
-                </div>
-                <div id ="headercolumn">
-                    <h2>Resume</h2>
-                </div>
-                <img src="assets/images/cover.png" width="100%" height="200">
-        </div>
-        <div class="row1">
-            <div id ="row1column1">
-                <h2>About Me |</h2>
-            </div>
-            <div id="row1column2">
-                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-            </div>
-        </div>
-        <br>
-        <div class="row2">
-            <div id ="row2column1">
-                <h2>Work |</h2>
-            </div>
-            <div id="row2column2">
-                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-            </div>
-            <!--add flex boxes in here !!!
-            example :
-            <div>hello I am a flex box !</div>
 
-            got to style.css, give the felxbox a name and id name using the hashtag and style it accordingly, if you get lost look at your
-            classwork, and refer to adding flexboxes in css. www.w3schools.com has some good content that you can learn from as well.
-            -->
+        <!-- Header/Navigation -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand">Laeticia Ndutiye</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#AboutMe">About Me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Contact">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Work">Work</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Resume">Resume</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+        <!-- About Me -->
+        <div class="container">
+        <div class="card mb-3" id="AboutMe">
+          <img src="assets/images/code.gif" class="card-img-top" alt="..." width="300px" height="300px">
+          <div class="card-body">
+            <h3 class="card-title">Full Stack Web Developer</h3>
+            <p class="card-text">My name is Laeticia and I am currently attending Richmond Bootcamp to become a Web Developer. I love going on adventure with my husband and kids. See all of my beautiful creations below.</p>
+            <a href="https://github.com/lsangano" class="btn btn-success">Github</a>
+          </div>
+          <br>
+          <div class="card mb-12" style="max-width: 1500px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="assets/images/IMG_3020.JPG" class="img-thumbnail" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">About Me</h5>
+                  <!-- add an about me below here -->
+                  <p class="card-text">My name is Laeticia and i am 31 years old and a student.</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <br>
-        <div class="row3">
-            <div id ="row3column1">
-                <h2>Contact |</h2>
+
+        <!-- Work Section Portfolio -->
+          <div class="row" id="Work">
+            <h1 id="projects">Projects</h1>
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Code Refactor</h5>
+                  <img src="assets/images/homework-screenshot.png" class="img-thumbnail" alt="...">
+                  <p class="card-text">A sleek new design for a client webpage composed using css flexbox, margining and padding !</p>
+                  <a href="https://github.com/lsangano/Horiseon-NewWebsite" class="btn btn-danger">Check out the Src Code !</a>
+                  <a href="https://lsangano.github.io/Horiseon-NewWebsite/" class="btn btn-danger">See Deployed The Deployed Version !</a>
+
+                </div>
+              </div>
             </div>
-            <div id ="row3column2">
-                <h2>(804) 496-0139</h2>
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Dummy Card</h5>
+                  <p class="card-text">Next Project Description Will go HERE.</p>
+                  <a href="#" class="btn btn-danger">Check out the Src Code !</a>
+                  <a href="#" class="btn btn-danger">See Deployed The Deployed Version !</a>
+                </div>
+              </div>
             </div>
-            <div id ="row3column2">
-                <h2>ndutilae@gmail.com</h2>
-            </div>
-            <div id ="row3column2">
-                <h2><a href="https://github.com/lsangano">Github</h2>
-            </div>
+          </div>
+
+          <!--  Contact Me -->
+
+
+        <div class="card" style="width: 100%;">
+          <div class="card-body">
+            <h5 class="card-title">Contact Me</h5>
+            <a href="#" class="card-link"> (804)496-0139
+            </a>
+            <a href="#" class="card-link">ndutilae@gmail.com
+            </a>
+          </div>
         </div>
-        <br>
-        <br>
-        <br>
-        <div class="row4">
-            <div id ="row4column1">
-                <h2>Resume</h2>
+
+
+
+
+          <!-- Resume -->
+          <div class="card" id="Resume">
+            <div class="card-body">
+              <a href="#" class="btn btn-primary">Resume</a>
             </div>
+          </div>
         </div>
+
+
     </body>
 </html>
